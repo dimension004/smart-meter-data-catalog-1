@@ -1,0 +1,25 @@
+{
+  "name": "smart-meter-data-catalog-prototype",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "compile-dataset-listing": "compile-dataset-listing datasets.yaml >> datasets.json",
+    "compile-code-listing": "compile-code-listing code.yaml >> code.json",
+    "compile-smda-catalog": "compile-smda-catalog >> catalog.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RSLi/smart-meter-data-catalog.git"
+  },
+  "author": "rs-li",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RSLi/smart-meter-data-catalog/issues"
+  },
+  "homepage": "https://github.com/RSLi/smart-meter-data-catalog#readme",
+  "devDependencies": {
+    "@rs-li/yaml2dict": "0.0.2"
+  }
+}
