@@ -4,10 +4,10 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "compile-smda-catalog >> catalog.json",
-    "compile-dataset-listing": "compile-dataset-listing datasets.yaml >> datasets.json",
-    "compile-code-listing": "compile-code-listing code.yaml >> code.json",
-    "compile-smda-catalog": "compile-smda-catalog >> catalog.json"
+    "test": "compile-smda-catalog > catalog.json",
+    "compile-dataset-listing": "compile-dataset-listing datasets.yaml > datasets.json",
+    "compile-code-listing": "compile-code-listing code.yaml > code.json",
+    "compile-smda-catalog": "compile-smda-catalog > catalog.json"
   },
   "repository": {
     "type": "git",
