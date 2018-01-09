@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "compile-smda-catalog >> catalog.json",
     "compile-dataset-listing": "compile-dataset-listing datasets.yaml >> datasets.json",
     "compile-code-listing": "compile-code-listing code.yaml >> code.json",
     "compile-smda-catalog": "compile-smda-catalog >> catalog.json"
