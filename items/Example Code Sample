@@ -1,0 +1,8 @@
+Example Code Sample:
+  description: "Example description for demo purpose"
+  link: https://github.com/smda/smart-meter-data-catalog
+  type: code
+  datasetsUsed:
+    - Example Dataset
+  author: RSLi
+  contributorGithubHandle: RSLi
