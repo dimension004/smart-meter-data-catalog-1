@@ -5,11 +5,3 @@ Placeholder Code Sample:
   link: http://example.com
   author: Test User
 
-Sample Title:
-  description: "Sample Description"
-  link: http://example.com
-  datasetsUsed:
-    - Almanac of Minutely Power Dataset (AMPds)
-    - Controlled On/Off Loads Library dataset (COOLL)
-    - Dutch Residential Energy Dataset (DRED)
-  author: RSLi
