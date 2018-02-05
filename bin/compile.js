@@ -22,4 +22,9 @@ var newFileContent = arrayFileContent.reduce((accumulator, currentValue) => {
 // Validate and compile YAML to JSON
 var nativeObject = YAML.parse(newFileContent);
 
+for (const key in nativeObject) {
+    nativeObject[key]['id'] = key;
+    nativeObject[key]['title'] = key;
+}
+
 console.log(JSON.stringify(nativeObject));
