@@ -9,6 +9,13 @@
         "contributorGithubHandle": "RSLi",
         "contributorLinkedinHandle": "robertsiweili"
     },
+    "Sample Dataset": {
+        "description": "Sample Description",
+        "link": "http://example.org",
+        "author": "Tester",
+        "contributorGithubHandle": "RSLi",
+        "contributorLinkedinHandle": "robertsiweili"
+    },
     "Almanac of Minutely Power Dataset (AMPds)": {
         "link": "http://ampds.org",
         "description": "The AMPds dataset has been release to help load disaggregation/NILM and eco-feedback researchers test their algorithms, models, systems, and prototypes. AMPds contains electricity, water, and natural gas measurements at one minute intervals — a total of 1,051,200 readings per meter for 2 years of monitoring. Weather data from Environment Canada\\'s YVR weather station has also been added. This hourly weather data covers the same period of time as AMPds and includes a summary of climate normals observed from the years between 1981-2010. Utility billing data is also included for cost analyses."
@@ -56,10 +63,5 @@
     "UK Domestic Appliance-Level Electricity (UK-DALE) dataset": {
         "link": "http://www.doc.ic.ac.uk/~dk3810/data/",
         "description": "April 2017 release: This dataset records the power demand from five houses. In each house we record both the whole-house mains power demand every six seconds as well as power demand from individual appliances every six seconds. In three of the five houses (houses 1, 2 and 5) we also record the whole-house voltage and current at 16 kHz. Each release of the dataset is labelled with the month and year. The most recent (and probably final) release is for April 2017. UK-DALE now includes 4.3 years of data for house 1."
-    },
-    "Placeholder Dataset": {
-        "description": "Sample Description",
-        "link": "http://example.com",
-        "author": "Test User"
     }
 }
