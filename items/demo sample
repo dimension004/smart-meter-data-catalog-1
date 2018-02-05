@@ -1,0 +1,8 @@
+Example Code Sample:
+  description: "This is an example code sample for Smart Meter Data Portal"
+  link: https://github.com/smda/smart-meter-data-catalog
+  datasetsUsed:
+    - Sample Dataset
+  author: RSLi
+  contributorGithubHandle: RSLi
+  contributorLinkedinHandle: robertsiweili

@@ -4,10 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "compile-smda-catalog > catalog.json",
-    "compile-dataset-listing": "compile-dataset-listing datasets.yaml > datasets.json",
-    "compile-code-listing": "compile-code-listing code.yaml > code.json",
-    "compile-smda-catalog": "compile-smda-catalog > catalog.json"
+    "test": "node bin/compile.js > catalog.json"
   },
   "repository": {
     "type": "git",
@@ -21,5 +18,8 @@
   "homepage": "https://github.com/RSLi/smart-meter-data-catalog#readme",
   "devDependencies": {
     "@rs-li/yaml2dict": "0.0.2"
+  },
+  "dependencies": {
+    "yamljs": "^0.3.0"
   }
 }
