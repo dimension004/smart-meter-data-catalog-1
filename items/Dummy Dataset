@@ -1,0 +1,7 @@
+Dummy Dataset:
+  description: "Sample Description"
+  link: http://example.com
+  type: dataset
+  author: "Robert"
+  contributorGithubHandle: RSLi
+  contributorLinkedinHandle: robertsiweili
